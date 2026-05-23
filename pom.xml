@@ -47,9 +47,12 @@
 <distributionManagement>
     <repository>
         <id>github</id>
-        <name>GitHub Packages</name>
         <url>https://maven.pkg.github.com/brownsley/my-custom-qr</url>
     </repository>
+    <snapshotRepository>
+        <id>github</id>
+        <url>https://maven.pkg.github.com/brownsley/my-custom-qr</url>
+    </snapshotRepository>
 </distributionManagement>
 	<build>
         <plugins>
