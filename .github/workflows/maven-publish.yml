@@ -31,10 +31,6 @@ jobs:
         run: mvn -B package --file pom.xml
 
       - name: Publish to GitHub Packages
-<<<<<<< HEAD
         run: mvn deploy
-=======
-        run: mvn deploy -DskipTests
->>>>>>> 1b8ff61f098741b18ad75aa242df38884e9e5344
         env:
           GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}
